@@ -1,2 +1,2 @@
 # PUF-based-Light-Weight-Authentication-Protocol-for-Smart-Societies
-Establish secure and advanced society with an efficient architecture designed for a secure mutual authentication protocol using Physically Unclonable Functions (PUFs) 
+Establish secure and advanced society with an efficient architecture designed for the smart societies and a secure mutual authentication protocol using Physically Unclonable Functions (PUFs) to establish secure communication. The protocol provides methods for the protection from all the security threats and prepare efficient and reliable security protocol to yield better performance. 
