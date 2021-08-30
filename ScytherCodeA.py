@@ -5,9 +5,9 @@ const PWu;
 const BFu;
 fresh Ras;
 send_!4(User,Cloud,IDu);
-macro BFu=H(BFIu,BFGu);
+macro BFu=H(BFIu,BFGu); #biometric function
 send_!5(User,Cloud,H(IDu, BFIu));
-macro BFIu'=H(BFu,BFGu);
+macro BFIu'=H(BFu,BFGu);#biometric ID 
 macro Dc'=H(XOR(IDu,PWu),BFIu');
 match(Dc', Dc);
 macro Ac'=XOR(Bc,H(IDu,H(IDu,BFIu)));
@@ -24,7 +24,12 @@ claim_User(User,Niagree);
 claim_User(User, Nisynch);
 claim_User(User,Secret,PWu);
 claim_User(User,Secret, SKe-v);
-
+#The Non-injective Synchronization (Ni-Agree) property requires sending and
+#receiving events are executed by the runs mentioned by the cast
+#function and is implemented in the correct order and with the same contents.
+#The Non-injective Agreement (Ni-Agree) has claimed that the sender and 
+#the receiver both agree upon the values of the variables that 
+#are exchanged in between and the analysis results validate the claim’s correctness.
 }
 
 role Cloud{
@@ -53,6 +58,4 @@ macro  SKe-v = H(IDc,IDu,Ras,Rc );
 claim_Cloud(Cloud,Niagree);
 claim_ Cloud (Cloud, Nisynch);
 claim_ Cloud (Cloud,Secret, SKe-v);
-
-}
-}
+}}
