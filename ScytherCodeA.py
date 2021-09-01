@@ -55,7 +55,7 @@ macro Hc=H(IDc,IDu,Ac,BFIu,Rc,T2);
 macro Rc-as=XOR(Ras',Rc);
 send_!7(Cloud,User,Hc,Rc-as,IDc,T2);
 macro  SKe-v = H(IDc,IDu,Ras,Rc );
-claim_Cloud(Cloud,Niagree);
+claim_Cloud(Cloud,Niagree);#non-injective agreement
 claim_ Cloud (Cloud, Nisynch);
 claim_ Cloud (Cloud,Secret, SKe-v);
 }}
