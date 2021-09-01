@@ -32,8 +32,7 @@ claim_User(User,Secret, SKe-v);#session key secrecy
 role Cloud{
 const Sc;
 recv_!1(BaseStation,Cloud,BIDr);
-const IDc;
-fresh Rc;
+const IDc;fresh Rc;
 macro BSr=H(BIDr,Sc);
 send_!2(Cloud,BaseStation,BSr);
 recv_!4(User,Cloud,IDu);
