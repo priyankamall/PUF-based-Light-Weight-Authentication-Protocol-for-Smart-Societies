@@ -35,7 +35,6 @@ send_!11(Cloud,BaseStation,Tbc,Rc-b,Pcb,IDc);
 claim_Cloud(Cloud,Niagree);#non-injective agreement
 claim_ Cloud (Cloud, Nisynch);#non-injective synchronization
 claim_Cloud(Cloud,Secret, SKb-c);
-
 }
 
 role BaseStation{
@@ -79,12 +78,11 @@ recv_!12(BaseStation,SensorNodeAndCamera,C1);
 macro C1=H(R1);
 fresh SRs;
 macro ZSs=ADD(SRs,R1);
-macro SKbs-s=H(R1,SRs);
+macro SKbs-s=H(R1,SRs);#base station secret key
 macro XSs=H(SIDp,SRs,R1,SKbs-s);
 send_!13(SensorNodeAndCamera,BaseStation,ZSs,XSs);
 claim_SensorNodeAndCamera(SensorNodeAndCamera,Niagree);#non-injective agreement
 claim_SensorNodeAndCamera(SensorNodeAndCamera, Nisynch);#non-injective synchronization
-
 }
 }
 
