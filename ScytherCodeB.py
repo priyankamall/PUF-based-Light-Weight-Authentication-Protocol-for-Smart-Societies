@@ -13,7 +13,7 @@ macro Rbs'=XOR(RAN,Rbs-u);
 macro Lbs^=H(IDu,BIDr,CBc,Rbs');
 match(Lbs^,Lbs);
 macro SKbs-as= H(IDu,BIDr,Rbs,RANu);
-claim_User(User,Niagree);
+claim_User(User,Niagree);#non-injective agreement
 claim_User(User, Nisynch);
 claim_User(User,Secret,PWu);
 claim_User(User,Secret,RANbs-u);
