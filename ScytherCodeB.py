@@ -1,9 +1,6 @@
 protocol SmartSociety(User, Cloud,BaseStation,SensorNodeAndCamera){
 role User{
-const IDu;
-const PWu;
-const BFu;
-fresh Ras;
+const IDu;const PWu;const BFu;fresh Ras;
 macro CBc'=XOR(Ec,H(PWu',BFGu));
 macro Ku=H(IDu,CBc',RANu,T3);
 macro RANbs-u=XOR(RANu,H(CBc',T3));
