@@ -14,7 +14,7 @@ macro Lbs^=H(IDu,BIDr,CBc,Rbs');
 match(Lbs^,Lbs);
 macro SKbs-as= H(IDu,BIDr,Rbs,RANu);
 claim_User(User,Niagree);#non-injective agreement
-claim_User(User, Nisynch);
+claim_User(User, Nisynch);#non-injective synchronization
 claim_User(User,Secret,PWu);
 claim_User(User,Secret,RANbs-u);
 claim_User(User,Secret, SKbs-as);
