@@ -68,7 +68,7 @@ macro SRs^=XOR(R1,ZSs);
 macro SKbs-s^=H(R1,SRs^);
 macro XSs^=H(SIDp,SRs,R1,SKbs-s^);
 match(XSs^,XSs);
-claim_BaseStation(BaseStation,Niagree);
+claim_BaseStation(BaseStation,Niagree);#non-injective agreement
 claim_BaseStation(BaseStation, Nisynch);
 claim_BaseStation(BaseStation,Secret, RANu);
 claim_BaseStation(BaseStation,Secret, SKbs-as);
