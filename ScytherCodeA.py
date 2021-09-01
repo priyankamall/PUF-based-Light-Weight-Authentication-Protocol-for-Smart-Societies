@@ -21,7 +21,7 @@ macro Hc'=H(IDc,IDu,Ac',BFIu',Rc',T2);
 match(Hc', Hc);
 macro SKe-v = H(IDc,IDu,Ras,Rc );
 claim_User(User,Niagree);#non-injective agreement
-claim_User(User, Nisynch);
+claim_User(User, Nisynch);#non-injective synchronization
 claim_User(User,Secret,PWu);
 claim_User(User,Secret, SKe-v);
 #The Non-injective Synchronization (Ni-Agree) property requires sending and
