@@ -75,7 +75,7 @@ role SensorNodeAndCamera{
 const SIDp;
 const CIDq;
 recv_!12(BaseStation,SensorNodeAndCamera,C1);
-macro C1=H(R1);
+macro C1=H(R1);#PUF challenges
 fresh SRs;
 macro ZSs=ADD(SRs,R1);
 macro SKbs-s=H(R1,SRs);#Base station and sensor node session key
