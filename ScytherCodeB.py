@@ -38,7 +38,7 @@ claim_Cloud(Cloud,Secret, SKb-c);
 }
 
 role BaseStation{
-const BIDi;
+const BIDi;#base station identity
 send_!1(BaseStation,Cloud, BIDr );
 recv_!2(Cloud,BaseStation,BSr);
 recv_!8(User,BaseStation,Ku,RANbs-u,T4,IDu);
