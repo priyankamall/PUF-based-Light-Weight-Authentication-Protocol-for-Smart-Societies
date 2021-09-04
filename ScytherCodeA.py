@@ -37,7 +37,7 @@ const IDc;fresh Rc;
 macro BSr=H(BIDr,Sc);
 send_!2(Cloud,BaseStation,BSr);
 recv_!4(User,Cloud,IDu);#cloud receives the user identity 
-recv_!5(User,Cloud,H(IDu, BFIu));
+recv_!5(User,Cloud,H(IDu, BFIu));#cloud receives the user identity and biometric values
 macro Ac=H(H(IDu,BFIu),Sc);
 macro Bc=XOR(Ac, H(IDu,H(IDu,BFIu)));
 macro Dc=H(XOR(IDu,PWu),BFIu);
