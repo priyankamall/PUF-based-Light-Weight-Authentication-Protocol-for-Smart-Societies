@@ -12,7 +12,7 @@ recv_!9(BaseStation,User,Lbs,Rbs-u,T5);
 macro Rbs'=XOR(RAN,Rbs-u);
 macro Lbs^=H(IDu,BIDr,CBc,Rbs');
 match(Lbs^,Lbs);
-macro SKbs-as= H(IDu,BIDr,Rbs,RANu);
+macro SKbs-as= H(IDu,BIDr,Rbs,RANu);#base station and user session key
 claim_User(User,Niagree);#non-injective agreement
 claim_User(User, Nisynch);#non-injective synchronization
 claim_User(User,Secret,PWu);#password secrecy
