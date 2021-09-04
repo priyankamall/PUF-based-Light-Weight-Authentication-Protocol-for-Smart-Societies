@@ -1,7 +1,7 @@
 protocol SmartSociety(User, Cloud,BaseStation,SensorNodeAndCamera){
 role User{
 const IDu;# user identity
-const PWu;
+const PWu;#user password for the login process
 const BFu;
 fresh Ras;
 macro CBc'=XOR(Ec,H(PWu',BFGu));
