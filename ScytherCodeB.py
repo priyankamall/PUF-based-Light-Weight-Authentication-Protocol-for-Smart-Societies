@@ -64,7 +64,7 @@ match(Pcb',Pcb);
 send_!12(BaseStation,SensorNodeAndCamera,C1);
 recv_!13(SensorNodeAndCamera,BaseStation,ZSs,XSs);
 macro SRs^=XOR(R1,ZSs);
-macro SKbs-s^=H(R1,SRs^);
+macro SKbs-s^=H(R1,SRs^);#base station and sensor node session key
 macro XSs^=H(SIDp,SRs,R1,SKbs-s^);
 match(XSs^,XSs);
 claim_BaseStation(BaseStation,Niagree);#non-injective agreement
