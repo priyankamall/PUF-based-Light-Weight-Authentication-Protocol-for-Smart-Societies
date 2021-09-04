@@ -66,7 +66,7 @@ macro XSs^=H(SIDp,SRs,R1,SKbs-s^);
 match(XSs^,XSs);
 claim_BaseStation(BaseStation,Niagree);#non-injective agreement
 claim_BaseStation(BaseStation, Nisynch);#non-injective synchronization
-claim_BaseStation(BaseStation,Secret, RANu);
+claim_BaseStation(BaseStation,Secret, RANu);#check the secrecy of the random number
 claim_BaseStation(BaseStation,Secret, SKbs-as);
 
 }
