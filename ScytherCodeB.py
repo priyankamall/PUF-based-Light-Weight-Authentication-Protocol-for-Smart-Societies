@@ -3,7 +3,7 @@ role User{
 const IDu;# user identity
 const PWu;#user password for the login process
 const BFu;#user biometric credentials
-fresh Ras;
+fresh Ras;# random number
 macro CBc'=XOR(Ec,H(PWu',BFGu));
 macro Ku=H(IDu,CBc',RANu,T3);
 macro RANbs-u=XOR(RANu,H(CBc',T3));
