@@ -43,7 +43,7 @@ macro Bc=XOR(Ac, H(IDu,H(IDu,BFIu)));
 macro Dc=H(XOR(IDu,PWu),BFIu);
 macro CBc=H(IDu,BIDr,BSr);
 macro Ec=XOR(CBc,H(PWu,BFGu));
-recv_!6(User,Cloud,Fu,Ras-c,IDu,T1,Gu);
+recv_!6(User,Cloud,Fu,Ras-c,IDu,T1,Gu);#cloud receives the parameters from the user
 macro Ac=H(H(IDu,BFIu),Sc);
 macro Ras'=XOR(Ras-c, H(Ac,T1));
 macro Fu'=H(IDu,Ac,Ras',T1);
