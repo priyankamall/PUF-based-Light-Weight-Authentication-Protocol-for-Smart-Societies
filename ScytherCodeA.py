@@ -28,7 +28,6 @@ claim_User(User,Secret, SKe-v);#session key secrecy
 #the receiver both agree upon the values of the variables that 
 #are exchanged in between and the analysis results validate the claim’s correctness.
 }
-
 role Cloud{
 const Sc;
 recv_!1(BaseStation,Cloud,BIDr);
