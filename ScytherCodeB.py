@@ -71,7 +71,6 @@ claim_BaseStation(BaseStation,Secret, RANu);#check the secrecy of the random num
 claim_BaseStation(BaseStation,Secret, SKbs-as);#session key secrecy verification
 
 }
-
 role SensorNodeAndCamera{
 const SIDp;
 const CIDq;
