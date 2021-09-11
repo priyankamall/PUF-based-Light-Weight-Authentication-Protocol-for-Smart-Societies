@@ -82,7 +82,6 @@ macro XSs=H(SIDp,SRs,R1,SKbs-s);
 send_!13(SensorNodeAndCamera,BaseStation,ZSs,XSs);
 claim_SensorNodeAndCamera(SensorNodeAndCamera,Niagree);#non-injective agreement
 claim_SensorNodeAndCamera(SensorNodeAndCamera, Nisynch);#non-injective synchronization
-}
-}
+}}
 
 
