@@ -2,7 +2,8 @@ protocol SmartSociety(User, Cloud, BaseStation){
 role User{
 const IDu;const PWu;const BFu;fresh Ras;
 #IDu is the user identity
-send_!4(User,Cloud,IDu);#user sends the user identity to the cloud
+send_!4(User,Cloud,IDu);
+#user sends the user identity to the cloud
 macro BFu=H(BFIu,BFGu); #biometric function
 send_!5(User,Cloud,H(IDu, BFIu));#user sends the user identity and biometric values to the cloud
 macro BFIu'=H(BFu,BFGu);#biometric ID 
