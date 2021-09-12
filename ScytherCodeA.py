@@ -8,7 +8,8 @@ macro BFu=H(BFIu,BFGu);
 #biometric function
 send_!5(User,Cloud,H(IDu, BFIu));
 #user sends the user identity and biometric values to the cloud
-macro BFIu'=H(BFu,BFGu);#biometric ID 
+macro BFIu'=H(BFu,BFGu);
+#biometric ID 
 macro Dc'=H(XOR(IDu,PWu),BFIu');
 match(Dc', Dc);
 macro Ac'=XOR(Bc,H(IDu,H(IDu,BFIu)));
