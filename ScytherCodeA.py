@@ -27,7 +27,8 @@ claim_User(User,Niagree);
 #non-injective agreement
 claim_User(User, Nisynch);
 #non-injective synchronization
-claim_User(User,Secret,PWu);#password secrecy
+claim_User(User,Secret,PWu);
+#password secrecy
 claim_User(User,Secret, SKe-v);#session key secrecy    
 #The Non-injective Synchronization (Ni-Agree) property requires sending and
 #receiving events are executed by the runs mentioned by the cast
