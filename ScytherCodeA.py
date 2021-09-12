@@ -16,7 +16,8 @@ macro Ac'=XOR(Bc,H(IDu,H(IDu,BFIu)));
 macro Fu=H(IDu,Ac',Ras,T1);
 macro Ras-c=XOR (Ras ,H(Ac',T1));
 macro Gu=H(IDu,Ac');
-send_!6(User,Cloud,Fu,Ras-c,IDu,T1,Gu);#user sends the parameters to the cloud
+send_!6(User,Cloud,Fu,Ras-c,IDu,T1,Gu);
+#user sends the parameters to the cloud
 recv_!7(Cloud,User,Hc,Rc-as,IDc,T2);
 macro Rc'=ADD(Ras,Ras-c);
 macro Hc'=H(IDc,IDu,Ac',BFIu',Rc',T2);
