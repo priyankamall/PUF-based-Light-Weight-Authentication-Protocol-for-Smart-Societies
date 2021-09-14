@@ -41,6 +41,7 @@ claim_Cloud(Cloud,Niagree);#non-injective agreement
 claim_ Cloud (Cloud, Nisynch);#non-injective synchronization
 claim_Cloud(Cloud,Secret, SKb-c);
 }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%      
 role BaseStation{
 const BIDi;#base station identity
 send_!1(BaseStation,Cloud, BIDr );
