@@ -20,6 +20,7 @@ claim_User(User,Secret,PWu);#password secrecy
 claim_User(User,Secret,RANbs-u);
 claim_User(User,Secret, SKbs-as);
 }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%             
 role Cloud{
 const Sc;
 recv_!1(BaseStation,Cloud,BIDr);
