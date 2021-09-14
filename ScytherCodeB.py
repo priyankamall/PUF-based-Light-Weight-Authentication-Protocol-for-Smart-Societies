@@ -49,6 +49,7 @@ macro CBc=H(IDu,BIDr,BSr);
 macro RANu^=XOR(RANbs-u,H(CBc,T3));
 macro Ku^=H(IDu,CBc,RANu^,T3);
 match(Ku^,Ku);
+      #verify by matching the constraints
 fresh Rbs;
 macro Lbs=H(IDu,BIDr,CBc,Rbs);
 send_!9(BaseStation,Lbs,Rbs-u,T5);
