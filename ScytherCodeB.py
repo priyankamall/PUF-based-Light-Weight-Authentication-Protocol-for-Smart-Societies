@@ -60,7 +60,8 @@ send_!10(BaseStation,Cloud,BIDr,Nbc,Obc,Tbc);
 recv_!11(Cloud,BaseStation,Tbc,Rc-b,Pcb,IDc);
 macro Rbc'=XOR(Rc-b,Rbc);
 macro Pcb'=H(IDc,BSr,SKb-c,Tcb);
-macro SKb-c'=H(IDc,BIDr,Rbc,Rcb);#Base station and cloud session key
+macro SKb-c'=H(IDc,BIDr,Rbc,Rcb);
+      #Base station and cloud session key
 match(Pcb',Pcb);
       #verify by matching the constraints
 send_!12(BaseStation,SensorNodeAndCamera,C1);
