@@ -2,7 +2,7 @@ protocol SmartSociety(User, Cloud, BaseStation){
 role User{
 const IDu;#User identity
 const PWu;#user password
-const BFu;
+const BFu;#user biometric information
 fresh Ras;
 #IDu is the user identity
 send_!4(User,Cloud,IDu);
