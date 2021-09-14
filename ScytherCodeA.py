@@ -1,6 +1,7 @@
 protocol SmartSociety(User, Cloud, BaseStation){
 role User{
-const IDu;const PWu;const BFu;fresh Ras;
+const IDu;
+const PWu;const BFu;fresh Ras;
 #IDu is the user identity
 send_!4(User,Cloud,IDu);
 #user sends the user identity to the cloud
