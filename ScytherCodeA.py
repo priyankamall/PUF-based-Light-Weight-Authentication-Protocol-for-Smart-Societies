@@ -1,6 +1,6 @@
 protocol SmartSociety(User, Cloud, BaseStation){
 role User{
-const IDu;
+const IDu;#User identity
 const PWu;
 const BFu;
 fresh Ras;
