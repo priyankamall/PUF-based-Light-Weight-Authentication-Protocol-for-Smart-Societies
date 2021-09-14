@@ -26,6 +26,7 @@ recv_!7(Cloud,User,Hc,Rc-as,IDc,T2);
 macro Rc'=ADD(Ras,Ras-c);
 macro Hc'=H(IDc,IDu,Ac',BFIu',Rc',T2);
 match(Hc', Hc);
+      #verify by matching the constraints
 macro SKe-v = H(IDc,IDu,Ras,Rc );
 claim_User(User,Niagree);
 #non-injective agreement
