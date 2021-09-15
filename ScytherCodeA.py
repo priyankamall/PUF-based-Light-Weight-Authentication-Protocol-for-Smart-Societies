@@ -1,3 +1,6 @@
+usertype
+
+
 protocol SmartSociety(User, Cloud, BaseStation){
 role User{
 const IDu;#User identity
