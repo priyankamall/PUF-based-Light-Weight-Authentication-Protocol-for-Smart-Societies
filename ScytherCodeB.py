@@ -1,4 +1,5 @@
 usertype
+Timestamp,Biometric,PUF,SK;
 protocol SmartSociety(User, Cloud,BaseStation,SensorNodeAndCamera){
 role User{
 const IDu;# user identity
