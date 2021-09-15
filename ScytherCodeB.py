@@ -11,7 +11,8 @@ T3,T4,PWu,PWu',Ec,RANu,Ku,
 Lbs,T5,Rbs-u,RAN,CBc,BIDr,
 IDu,Ras,Tbc,Obc,Nbc,Tbc,
 Tcb,Rbc,Sc,Rcb,SKb-c,
-C1,XSs,ZSs,R1,SRs,SIDp,CIDq,SKe-v,SKbs-as;      
+C1,XSs,ZSs,R1,SRs,SIDp,
+CIDq,SKe-v,SKbs-as;      
 const ADD:Function;      
 protocol SmartSociety(User, Cloud,BaseStation,SensorNodeAndCamera){
 role User{
