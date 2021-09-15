@@ -1,3 +1,4 @@
+usertype
 protocol SmartSociety(User, Cloud,BaseStation,SensorNodeAndCamera){
 role User{
 const IDu;# user identity
