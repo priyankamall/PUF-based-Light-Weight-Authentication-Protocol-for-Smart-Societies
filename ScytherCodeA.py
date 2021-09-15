@@ -1,5 +1,5 @@
 usertype
-
+Timestamp,Biometric,PUF,SK;
 
 protocol SmartSociety(User, Cloud, BaseStation){
 role User{
