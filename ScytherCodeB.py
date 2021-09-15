@@ -2,6 +2,7 @@ usertype
 Timestamp,Biometric,PUF,SK;
 hashfunction H;
 const XOR:Function;
+const ADD:Function;      
 protocol SmartSociety(User, Cloud,BaseStation,SensorNodeAndCamera){
 role User{
 const IDu;# user identity
