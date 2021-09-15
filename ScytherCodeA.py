@@ -1,6 +1,6 @@
 usertype
 Timestamp,Biometric,PUF,SK;
-
+hashfunction H;
 protocol SmartSociety(User, Cloud, BaseStation){
 role User{
 const IDu;#User identity
