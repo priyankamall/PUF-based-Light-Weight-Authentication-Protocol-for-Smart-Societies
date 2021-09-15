@@ -4,6 +4,7 @@ hashfunction H;
 const XOR:Function;
 const ADD:Function;     
 const MUL:Function;
+const GEN:Function;      
 protocol SmartSociety(User, Cloud,BaseStation,SensorNodeAndCamera){
 role User{
 const IDu;# user identity
