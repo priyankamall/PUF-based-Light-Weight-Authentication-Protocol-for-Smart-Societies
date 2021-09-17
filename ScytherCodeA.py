@@ -80,7 +80,7 @@ macro Ac=H(H(IDu,BFIu),Sc);
 macro Ras'=XOR(Ras-c, H(Ac,T1));
 macro Fu'=H(IDu,Ac,Ras',T1);
 match(Fu', Fu);
-      #verify by matching the constraints
+#verify by matching the constraints
 macro Hc=H(IDc,IDu,Ac,BFIu,Rc,T2);
 macro Rc-as=XOR(Ras',Rc);
 send_!7(Cloud,User,Hc,Rc-as,IDc,T2);#cloud sends the computed parameters to the user
