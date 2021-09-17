@@ -57,6 +57,7 @@ claim_User(User,Secret,PWu);
 #password secrecy
 claim_User(User,Secret, SKe-v);
 #session key secrecy    
+      
 #The Non-injective Synchronization (Ni-Agree) property requires sending and
 #receiving events are executed by the runs mentioned by the cast
 #function and is implemented in the correct order and with the same contents.
