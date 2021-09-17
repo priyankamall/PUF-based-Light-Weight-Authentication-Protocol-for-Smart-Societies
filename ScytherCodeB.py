@@ -17,6 +17,7 @@ C1,XSs,ZSs,R1,SRs,SIDp,
 CIDq,SKe-v,SKbs-as;      
 const ADD:Function;      
 protocol SmartSociety(User, Cloud,BaseStation,SensorNodeAndCamera){
+      
 role User{
 const IDu;# user identity
 const PWu;#user password for the login process
