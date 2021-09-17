@@ -31,7 +31,7 @@ macro BFIu'=H(BFu,BFGu);
 #biometric ID 
 macro Dc'=H(XOR(IDu,PWu),BFIu');
 match(Dc', Dc);
-      #verify by matching the constraints
+#verify by matching the constraints
 macro Ac'=XOR(Bc,H(IDu,H(IDu,BFIu)));
 macro Fu=H(IDu,Ac',Ras,T1);
 macro Ras-c=XOR (Ras ,H(Ac',T1));
@@ -42,7 +42,7 @@ recv_!7(Cloud,User,Hc,Rc-as,IDc,T2);
 macro Rc'=ADD(Ras,Ras-c);
 macro Hc'=H(IDc,IDu,Ac',BFIu',Rc',T2);
 match(Hc', Hc);
-      #verify by matching the constraints
+#verify by matching the constraints
 macro SKe-v = H(IDc,IDu,Ras,Rc );
 claim_User(User,Niagree);
 #non-injective agreement
