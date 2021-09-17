@@ -15,7 +15,7 @@ ZSs,R1,SRs,SIDp,CIDq,
 SKe-v,SKbs-as;
 const ADD:Function;
 protocol SmartSociety(User, Cloud, BaseStation){
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 role User{
 const IDu;#User identity
 const PWu;#user password
