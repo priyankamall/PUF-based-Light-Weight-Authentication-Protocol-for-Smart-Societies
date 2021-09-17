@@ -16,7 +16,8 @@ Tcb,Rbc,Sc,Rcb,SKb-c,
 C1,XSs,ZSs,R1,SRs,SIDp,
 CIDq,SKe-v,SKbs-as;      
 const ADD:Function;      
-protocol SmartSociety(User, Cloud,BaseStation,SensorNodeAndCamera){
+protocol SmartSociety(User, Cloud,BaseStation,SensorNodeAndCamera)
+{
       
 role User{
 const IDu;# user identity
