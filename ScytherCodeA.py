@@ -77,5 +77,11 @@ macro  SKe-v = H(IDc,IDu,Ras,Rc );
 claim_Cloud(Cloud,Niagree); #non-injective agreement
 claim_ Cloud (Cloud, Nisynch); #non-injective synchronization
 claim_ Cloud (Cloud,Secret, SKe-v); #session key secrecy
+#The Non-injective Synchronization (Ni-Agree) property requires sending and
+#receiving events are executed by the runs mentioned by the cast
+#function and is implemented in the correct order and with the same contents.
+#The Non-injective Agreement (Ni-Agree) has claimed that the sender and 
+#the receiver both agree upon the values of the variables that 
+#are exchanged in between and the analysis results validate the claim’s correctness.                
 }
 }
