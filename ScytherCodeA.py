@@ -40,8 +40,7 @@ macro Hc'=H(IDc,IDu,Ac',BFIu',Rc',T2);
 match(Hc', Hc); #verify by matching the constraints
 macro SKe-v = H(IDc,IDu,Ras,Rc );
 claim_User(User,Niagree); #non-injective agreement
-claim_User(User, Nisynch);
-#non-injective synchronization
+claim_User(User, Nisynch); #non-injective synchronization
 claim_User(User,Secret,PWu);
 #password secrecy
 claim_User(User,Secret, SKe-v);
