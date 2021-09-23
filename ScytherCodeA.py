@@ -23,7 +23,6 @@ const IDu;#IDu is the user identity
 const PWu;#user password
 const BFu;#user biometric information
 fresh Ras;#random number
-
 send_!4(User,Cloud,IDu);
 #user sends the user identity to the cloud
 macro BFu=H(BFIu,BFGu); 
