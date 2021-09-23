@@ -77,6 +77,6 @@ send_!7(Cloud,User,Hc,Rc-as,IDc,T2);#cloud sends the computed parameters to the 
 macro  SKe-v = H(IDc,IDu,Ras,Rc );
 claim_Cloud(Cloud,Niagree);#non-injective agreement
 claim_ Cloud (Cloud, Nisynch);#non-injective synchronization
-claim_ Cloud (Cloud,Secret, SKe-v);#session key secrecy
+claim_ Cloud (Cloud,Secret, SKe-v); #session key secrecy
 }
 }
