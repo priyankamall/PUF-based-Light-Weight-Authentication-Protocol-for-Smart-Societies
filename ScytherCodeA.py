@@ -61,8 +61,7 @@ claim_User(User,Secret, SKe-v);
 #The Non-injective Agreement (Ni-Agree) has claimed that the sender and 
 #the receiver both agree upon the values of the variables that 
 #are exchanged in between and the analysis results validate the claim’s correctness.     
-}
-      
+}  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 role Cloud{
 const Sc;
