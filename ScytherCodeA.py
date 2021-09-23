@@ -60,8 +60,7 @@ claim_User(User,Secret, SKe-v);
 #function and is implemented in the correct order and with the same contents.
 #The Non-injective Agreement (Ni-Agree) has claimed that the sender and 
 #the receiver both agree upon the values of the variables that 
-#are exchanged in between and the analysis results validate the claim’s correctness.
-      
+#are exchanged in between and the analysis results validate the claim’s correctness.     
 }
       
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
