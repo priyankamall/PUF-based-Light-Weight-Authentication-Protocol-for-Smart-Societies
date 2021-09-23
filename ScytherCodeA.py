@@ -91,4 +91,4 @@ claim_Cloud(Cloud,Niagree);#non-injective agreement
 claim_ Cloud (Cloud, Nisynch);#non-injective synchronization
 claim_ Cloud (Cloud,Secret, SKe-v);#session key secrecy
 }
-                }
+}
