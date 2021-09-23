@@ -1,5 +1,6 @@
 usertype
-Timestamp,Biometric,PUF,SK;
+Timestamp
+Biometric,PUF,SK;
 hashfunction H;
 const XOR:Function;
 const ADD:Function;
