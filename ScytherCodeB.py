@@ -40,7 +40,7 @@ claim_User(User,Secret, SKbs-as);
 role Cloud{
 const Sc;
 recv_!1(BaseStation,Cloud,BIDr);
-const IDc;#cloud server identity
+const IDc; #cloud server identity
 fresh Rc;
 recv_!10(BaseStation,Cloud,BIDr,Nbc,Obc,Tbc);
 macro BSr'=H(BIDr,Sc);
