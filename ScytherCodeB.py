@@ -31,7 +31,7 @@ macro Lbs^=H(IDu,BIDr,CBc,Rbs');
 match(Lbs^,Lbs); #verify by matching the constraints
 macro SKbs-as= H(IDu,BIDr,Rbs,RANu); #base station and user session key
 claim_User(User,Niagree); #non-injective agreement
-claim_User(User, Nisynch);#non-injective synchronization
+claim_User(User, Nisynch); #non-injective synchronization
 claim_User(User,Secret,PWu);#password secrecy
 claim_User(User,Secret,RANbs-u);
 claim_User(User,Secret, SKbs-as);
