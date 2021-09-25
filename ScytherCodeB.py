@@ -48,7 +48,7 @@ macro Rbc'= XOR(Obc,H(BIDr,BSr',Tbc));
 macro Nbc'=H(BIDr,BSr',Rbc');
 match(Nbc',Nbc); #verify by matching the constraints
 fresh Rcb;#random number
-macro SKb-c = H(IDc,BIDr,Rbc,Rcb);#Base station and cloud server session key
+macro SKb-c = H(IDc,BIDr,Rbc,Rcb); #Base station and cloud server session key
 macro Rc-b=XOR(Rcb,Rbc);
 macro Pcb=H(IDc,BSr,SKb-c,Tcb);
 send_!11(Cloud,BaseStation,Tbc,Rc-b,Pcb,IDc);
