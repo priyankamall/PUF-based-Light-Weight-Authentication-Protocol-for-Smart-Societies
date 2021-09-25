@@ -17,7 +17,7 @@ const ADD:Function;
 protocol SmartSociety(User, Cloud, BaseStation, SensorNodeAndCamera)
 {      
 role User{
-const IDu;#user identity
+const IDu; #user identity
 const PWu;#user password for the login process
 const BFu;#user biometric credentials
 fresh Ras;# random number
