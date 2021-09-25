@@ -46,8 +46,7 @@ recv_!10(BaseStation,Cloud,BIDr,Nbc,Obc,Tbc);
 macro BSr'=H(BIDr,Sc);
 macro Rbc'= XOR(Obc,H(BIDr,BSr',Tbc));
 macro Nbc'=H(BIDr,BSr',Rbc');
-match(Nbc',Nbc);
-      #verify by matching the constraints
+match(Nbc',Nbc); #verify by matching the constraints
 fresh Rcb;#random number
 macro SKb-c = H(IDc,BIDr,Rbc,Rcb);#Base station and cloud server session key
 macro Rc-b=XOR(Rcb,Rbc);
