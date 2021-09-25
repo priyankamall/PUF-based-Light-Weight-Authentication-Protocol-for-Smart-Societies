@@ -19,7 +19,7 @@ protocol SmartSociety(User, Cloud, BaseStation, SensorNodeAndCamera)
 role User{
 const IDu; #user identity
 const PWu; #user password for the login process
-const BFu;#user biometric credentials
+const BFu; #user biometric credentials
 fresh Ras;# random number
 macro CBc'=XOR(Ec,H(PWu',BFGu));
 macro Ku=H(IDu,CBc',RANu,T3);
