@@ -52,7 +52,7 @@ macro SKb-c = H(IDc,BIDr,Rbc,Rcb); #Base station and cloud server session key
 macro Rc-b=XOR(Rcb,Rbc);
 macro Pcb=H(IDc,BSr,SKb-c,Tcb);
 send_!11(Cloud,BaseStation,Tbc,Rc-b,Pcb,IDc);
-claim_Cloud(Cloud,Niagree);#non-injective agreement
+claim_Cloud(Cloud,Niagree); #non-injective agreement
 claim_ Cloud (Cloud, Nisynch);#non-injective synchronization
 claim_Cloud(Cloud,Secret, SKb-c);
 }
