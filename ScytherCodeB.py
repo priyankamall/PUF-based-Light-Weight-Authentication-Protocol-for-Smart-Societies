@@ -83,8 +83,7 @@ recv_!13(SensorNodeAndCamera,BaseStation,ZSs,XSs);
 macro SRs^=XOR(R1,ZSs);
 macro SKbs-s^=H(R1,SRs^); #base station and sensor node session key
 macro XSs^=H(SIDp,SRs,R1,SKbs-s^);
-match(XSs^,XSs);
-      #verify by matching the constraints
+match(XSs^,XSs); #verify by matching the constraints
 claim_BaseStation(BaseStation,Niagree);#non-injective agreement
 claim_BaseStation(BaseStation, Nisynch);#non-injective synchronization
 claim_BaseStation(BaseStation,Secret, RANu);#check the secrecy of the random number
