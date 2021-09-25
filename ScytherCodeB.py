@@ -87,7 +87,7 @@ match(XSs^,XSs); #verify by matching the constraints
 claim_BaseStation(BaseStation,Niagree); #non-injective agreement
 claim_BaseStation(BaseStation, Nisynch); #non-injective synchronization
 claim_BaseStation(BaseStation,Secret, RANu); #check the secrecy of the random number
-claim_BaseStation(BaseStation,Secret, SKbs-as);#session key secrecy verification
+claim_BaseStation(BaseStation,Secret, SKbs-as); #session key secrecy verification
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%      
 role SensorNodeAndCamera{
