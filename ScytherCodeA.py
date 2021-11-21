@@ -4,7 +4,7 @@ hashfunction H;
 const XOR: Function;
 const ADD: Function;
 const MUL: Function;
-const GEN:Function; 
+const GEN: Function; 
 const BFIu,BFGu,Dc,Bc,T1,
 T2,IDc,Rc-as,Hc,Rc,T3,T4,
 PWu,PWu',
