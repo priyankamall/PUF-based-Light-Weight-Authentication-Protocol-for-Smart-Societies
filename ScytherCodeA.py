@@ -29,7 +29,7 @@ send_!5(User,Cloud,H(IDu, BFIu)); #user sends the user identity and biometric va
 macro BFIu'= H(BFu,BFGu); #biometric ID 
 macro Dc'= H(XOR(IDu,PWu),BFIu');
 match(Dc', Dc); #verify by matching the constraints
-macro Ac'=XOR(Bc,H(IDu,H(IDu,BFIu)));
+macro Ac'= XOR(Bc,H(IDu,H(IDu,BFIu)));
 macro Fu=H(IDu,Ac',Ras,T1);
 macro Ras-c=XOR (Ras ,H(Ac',T1));
 macro Gu=H(IDu,Ac');
