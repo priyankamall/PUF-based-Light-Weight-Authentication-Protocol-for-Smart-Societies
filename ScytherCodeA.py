@@ -26,7 +26,7 @@ fresh Ras; #random number
 send_!4(User,Cloud,IDu); #user sends the user identity to the cloud
 macro BFu=H(BFIu,BFGu); #biometric function
 send_!5(User,Cloud,H(IDu, BFIu)); #user sends the user identity and biometric values to the cloud
-macro BFIu'=H(BFu,BFGu); #biometric ID 
+macro BFIu'= H(BFu,BFGu); #biometric ID 
 macro Dc'=H(XOR(IDu,PWu),BFIu');
 match(Dc', Dc); #verify by matching the constraints
 macro Ac'=XOR(Bc,H(IDu,H(IDu,BFIu)));
