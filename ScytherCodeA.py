@@ -1,7 +1,7 @@
 usertype
 Timestamp,Biometric,PUF,SK;
 hashfunction H;
-const XOR:Function;
+const XOR: Function;
 const ADD:Function;
 const MUL:Function;
 const GEN:Function; 
